@@ -1,4 +1,4 @@
-FROM golang:1.12
+FROM golang:1.23
 COPY . /go/src/github.com/moul/as-a-service
 WORKDIR /go/src/github.com/moul/as-a-service
 RUN make
